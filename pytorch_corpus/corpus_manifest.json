@@ -1,0 +1,383 @@
+{
+  "corpus": [
+    {
+      "id": "tut-002",
+      "title": "Quickstart",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html",
+      "description": "End-to-end minimal example: load data, build a model, train, save, load.",
+      "local_path": "raw/tutorials/tut-002_quickstart.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130"
+    },
+    {
+      "id": "tut-003",
+      "title": "Tensors (Basics series)",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html",
+      "description": "Introduction to torch.Tensor creation, attributes, and operations.",
+      "local_path": "raw/tutorials/tut-003_tensors.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130"
+    },
+    {
+      "id": "tut-004",
+      "title": "Datasets & DataLoaders",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/data_tutorial.html",
+      "description": "How to load and iterate over datasets using Dataset and DataLoader.",
+      "local_path": "raw/tutorials/tut-004_datasets_dataloaders.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130"
+    },
+    {
+      "id": "tut-005",
+      "title": "Transforms",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/transforms_tutorial.html",
+      "description": "Data preprocessing and augmentation via torchvision transforms.",
+      "local_path": "raw/tutorials/tut-005_transforms.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130"
+    },
+    {
+      "id": "tut-006",
+      "title": "Build the Neural Network",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html",
+      "description": "Constructing a neural network using torch.nn.Module.",
+      "local_path": "raw/tutorials/tut-006_build_the_neural_network.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130"
+    },
+    {
+      "id": "tut-007",
+      "title": "Automatic Differentiation with torch.autograd",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html",
+      "description": "How autograd computes gradients for backpropagation, basics-series version.",
+      "local_path": "raw/tutorials/tut-007_autograd.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130"
+    },
+    {
+      "id": "tut-008",
+      "title": "Optimizing Model Parameters",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html",
+      "description": "Training loop mechanics: loss functions, optimizers, epochs.",
+      "local_path": "raw/tutorials/tut-008_optimization.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130"
+    },
+    {
+      "id": "tut-009",
+      "title": "Save and Load the Model",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/saveloadrun_tutorial.html",
+      "description": "Serializing and restoring model weights and full models.",
+      "local_path": "raw/tutorials/tut-009_save_load_model.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130"
+    },
+    {
+      "id": "tut-014",
+      "title": "Training a Classifier",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html",
+      "description": "Full CIFAR-10 image classifier training example.",
+      "local_path": "raw/tutorials/tut-014_training_a_classifier.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130"
+    },
+    {
+      "id": "tut-016",
+      "title": "What is torch.nn really?",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/nn_tutorial.html",
+      "description": "Peels back torch.nn abstractions layer by layer starting from raw tensor ops.",
+      "local_path": "raw/tutorials/tut-016_what_is_torch_nn_really.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130",
+      "capture_confidence": "high - full single-page fetch, verbatim"
+    },
+    {
+      "id": "tut-019",
+      "title": "Visualizing Models, Data, and Training with TensorBoard",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/intermediate/tensorboard_tutorial.html",
+      "description": "Using TensorBoard for training visualization and debugging.",
+      "local_path": "raw/tutorials/tut-019_tensorboard.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130",
+      "capture_confidence": "high - full single-page fetch, verbatim"
+    },
+    {
+      "id": "tut-021",
+      "title": "Introduction to torch.compile",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/intermediate/torch_compile_tutorial.html",
+      "description": "How to use torch.compile to speed up model execution.",
+      "local_path": "raw/tutorials/tut-021_torch_compile.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130",
+      "capture_confidence": "high - full single-page fetch, verbatim"
+    },
+    {
+      "id": "tut-023",
+      "title": "Transfer Learning for Computer Vision Tutorial",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html",
+      "description": "Fine-tuning and feature-extraction transfer learning on image data.",
+      "local_path": "raw/tutorials/tut-023_transfer_learning.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130",
+      "capture_confidence": "high - full single-page fetch, verbatim"
+    },
+    {
+      "id": "tut-025",
+      "title": "DCGAN Tutorial",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html",
+      "description": "Building and training a deep convolutional GAN on a faces dataset."
+    },
+    {
+      "id": "tut-027",
+      "title": "Reinforcement Learning (DQN) Tutorial",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning.html",
+      "description": "Implementing Deep Q-Learning on a classic control environment."
+    },
+    {
+      "id": "tut-028",
+      "title": "PyTorch Distributed Overview",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/dist_overview.html",
+      "description": "Conceptual map of PyTorch's distributed training APIs and when to use each."
+    },
+    {
+      "id": "tut-029",
+      "title": "Getting Started with Distributed Data Parallel",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
+      "description": "Hands-on introduction to multi-GPU training with DDP."
+    },
+    {
+      "id": "tut-030",
+      "title": "Profiling your PyTorch Module",
+      "category": "tutorial",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/profiler.html",
+      "description": "Using torch.profiler to measure time and memory usage of model code."
+    },
+    {
+      "id": "con-001",
+      "title": "Automatic Mixed Precision examples",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/amp_examples.html",
+      "description": "Worked examples of mixed-precision training patterns."
+    },
+    {
+      "id": "con-002",
+      "title": "Autograd mechanics",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/autograd.html",
+      "description": "How the autograd engine builds and evaluates the computation graph."
+    },
+    {
+      "id": "con-003",
+      "title": "Broadcasting semantics",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/broadcasting.html",
+      "description": "Rules governing how tensors of different shapes interact in operations."
+    },
+    {
+      "id": "con-004",
+      "title": "CPU threading and TorchScript inference",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/cpu_threading_torchscript_inference.html",
+      "description": "How PyTorch manages intra-op and inter-op parallelism on CPU."
+    },
+    {
+      "id": "con-005",
+      "title": "CUDA semantics",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/cuda.html",
+      "description": "Device placement, streams, and memory management rules for CUDA tensors."
+    },
+    {
+      "id": "con-007",
+      "title": "Distributed Data Parallel (notes)",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/ddp.html",
+      "description": "Internal design and correctness notes for the DDP module."
+    },
+    {
+      "id": "con-008",
+      "title": "Extending PyTorch",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/extending.html",
+      "description": "How to add custom autograd Functions and Modules."
+    },
+    {
+      "id": "con-010",
+      "title": "Frequently Asked Questions",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/faq.html",
+      "description": "Common memory, performance, and correctness gotchas and their explanations."
+    },
+    {
+      "id": "con-011",
+      "title": "Fully Sharded Data Parallel (notes)",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/fsdp.html",
+      "description": "Design notes for sharding model states across data-parallel workers."
+    },
+    {
+      "id": "con-012",
+      "title": "Gradcheck mechanics",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/gradcheck.html",
+      "description": "How numerical gradient checking is implemented and its limitations."
+    },
+    {
+      "id": "con-015",
+      "title": "Modules",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/modules.html",
+      "description": "Conceptual guide to nn.Module design: parameters, buffers, submodules, hooks."
+    },
+    {
+      "id": "con-016",
+      "title": "MPS backend",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/mps.html",
+      "description": "Notes on running PyTorch on Apple Silicon GPUs via Metal Performance Shaders."
+    },
+    {
+      "id": "con-018",
+      "title": "Numerical accuracy",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/numerical_accuracy.html",
+      "description": "Why floating-point results can differ across runs, devices, and algorithms."
+    },
+    {
+      "id": "con-020",
+      "title": "Serialization semantics",
+      "category": "concept",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/serialization.html",
+      "description": "How torch.save/torch.load work and their compatibility guarantees."
+    },
+    {
+      "id": "api-001",
+      "title": "torch",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/torch.html",
+      "description": "Top-level tensor library: creation ops, math ops, indexing."
+    },
+    {
+      "id": "api-002",
+      "title": "torch.nn",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/nn.html",
+      "description": "Neural network layers, containers, and loss functions."
+    },
+    {
+      "id": "api-003",
+      "title": "torch.nn.functional",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/nn.functional.html",
+      "description": "Functional (stateless) versions of layers and activations."
+    },
+    {
+      "id": "api-004",
+      "title": "torch.Tensor",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/tensors.html",
+      "description": "Reference for the core Tensor class and its methods."
+    },
+    {
+      "id": "api-007",
+      "title": "torch.amp",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/amp.html",
+      "description": "Automatic mixed precision API reference."
+    },
+    {
+      "id": "api-008",
+      "title": "torch.autograd",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/autograd.html",
+      "description": "Automatic differentiation package API reference."
+    },
+    {
+      "id": "api-010",
+      "title": "torch.cuda",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/cuda.html",
+      "description": "CUDA device management and stream API reference."
+    },
+    {
+      "id": "api-013",
+      "title": "torch.distributed",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/distributed.html",
+      "description": "Distributed communication primitives and process groups."
+    },
+    {
+      "id": "api-015",
+      "title": "torch.fft",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/fft.html",
+      "description": "Fast Fourier Transform operations."
+    },
+    {
+      "id": "api-018",
+      "title": "torch.fx",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/fx.html",
+      "description": "Graph capture and transformation toolkit for nn.Module."
+    },
+    {
+      "id": "api-020",
+      "title": "torch.linalg",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/linalg.html",
+      "description": "Linear algebra operations (decompositions, solves, norms)."
+    },
+    {
+      "id": "api-023",
+      "title": "torch.profiler",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/profiler.html",
+      "description": "Performance profiling API reference."
+    },
+    {
+      "id": "api-025",
+      "title": "torch.onnx",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/onnx.html",
+      "description": "Exporting PyTorch models to the ONNX format."
+    },
+    {
+      "id": "api-026",
+      "title": "torch.optim",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/optim.html",
+      "description": "Optimizers and learning-rate schedulers."
+    },
+    {
+      "id": "api-028",
+      "title": "Quantization",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/quantization.html",
+      "description": "APIs for reduced-precision (int8 etc.) model quantization."
+    },
+    {
+      "id": "api-030",
+      "title": "torch.utils.data",
+      "category": "api",
+      "source_url": "https://docs.pytorch.org/docs/stable/data.html",
+      "description": "Dataset, DataLoader, and Sampler reference API."
+    }
+  ]
+}
