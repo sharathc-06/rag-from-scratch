@@ -139,63 +139,99 @@
       "title": "DCGAN Tutorial",
       "category": "tutorial",
       "source_url": "https://docs.pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html",
-      "description": "Building and training a deep convolutional GAN on a faces dataset."
+      "description": "Building and training a deep convolutional GAN on a faces dataset.",
+      "local_path": "raw/tutorials/tut-025_dcgan.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130",
+      "capture_confidence": "medium - full fetch but tail section truncated, marked in-file"
     },
     {
       "id": "tut-027",
       "title": "Reinforcement Learning (DQN) Tutorial",
       "category": "tutorial",
       "source_url": "https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning.html",
-      "description": "Implementing Deep Q-Learning on a classic control environment."
+      "description": "Implementing Deep Q-Learning on a classic control environment.",
+      "local_path": "raw/tutorials/tut-027_reinforcement_dqn.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130",
+      "capture_confidence": "high - full single-page fetch, verbatim"
     },
     {
       "id": "tut-028",
       "title": "PyTorch Distributed Overview",
       "category": "tutorial",
       "source_url": "https://docs.pytorch.org/tutorials/beginner/dist_overview.html",
-      "description": "Conceptual map of PyTorch's distributed training APIs and when to use each."
+      "description": "Conceptual map of PyTorch's distributed training APIs and when to use each.",
+      "local_path": "raw/tutorials/tut-028_distributed_overview.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130",
+      "capture_confidence": "high - full rst-source fetch, verbatim"
     },
     {
       "id": "tut-029",
       "title": "Getting Started with Distributed Data Parallel",
       "category": "tutorial",
       "source_url": "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
-      "description": "Hands-on introduction to multi-GPU training with DDP."
+      "description": "Hands-on introduction to multi-GPU training with DDP.",
+      "local_path": "raw/tutorials/tut-029_ddp_tutorial.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130",
+      "capture_confidence": "high - full single-page fetch, verbatim"
     },
     {
       "id": "tut-030",
       "title": "Profiling your PyTorch Module",
       "category": "tutorial",
       "source_url": "https://docs.pytorch.org/tutorials/beginner/profiler.html",
-      "description": "Using torch.profiler to measure time and memory usage of model code."
+      "description": "Using torch.profiler to measure time and memory usage of model code.",
+      "local_path": "raw/tutorials/tut-030_profiler.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "v2.14.0+cu130",
+      "capture_confidence": "high - full single-page fetch, verbatim"
     },
     {
       "id": "con-001",
       "title": "Automatic Mixed Precision examples",
       "category": "concept",
       "source_url": "https://docs.pytorch.org/docs/stable/notes/amp_examples.html",
-      "description": "Worked examples of mixed-precision training patterns."
+      "description": "Worked examples of mixed-precision training patterns.",
+      "local_path": "raw/concepts/con-001_amp_examples.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "2.14",
+      "capture_confidence": "high - full single-page fetch, verbatim"
     },
     {
       "id": "con-002",
       "title": "Autograd mechanics",
       "category": "concept",
       "source_url": "https://docs.pytorch.org/docs/stable/notes/autograd.html",
-      "description": "How the autograd engine builds and evaluates the computation graph."
+      "description": "How the autograd engine builds and evaluates the computation graph.",
+      "local_path": "raw/concepts/con-002_autograd_mechanics.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "2.14",
+      "capture_confidence": "medium - full fetch but tail section truncated, marked in-file"
     },
     {
       "id": "con-003",
       "title": "Broadcasting semantics",
       "category": "concept",
       "source_url": "https://docs.pytorch.org/docs/stable/notes/broadcasting.html",
-      "description": "Rules governing how tensors of different shapes interact in operations."
+      "description": "Rules governing how tensors of different shapes interact in operations.",
+      "local_path": "raw/concepts/con-003_broadcasting.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "2.14",
+      "capture_confidence": "high - full single-page fetch, verbatim"
     },
     {
       "id": "con-004",
       "title": "CPU threading and TorchScript inference",
       "category": "concept",
       "source_url": "https://docs.pytorch.org/docs/stable/notes/cpu_threading_torchscript_inference.html",
-      "description": "How PyTorch manages intra-op and inter-op parallelism on CPU."
+      "description": "How PyTorch manages intra-op and inter-op parallelism on CPU.",
+      "local_path": "raw/concepts/con-004_cpu_threading.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "2.14 / main",
+      "capture_confidence": "high - full capture via canonical GitHub rst source, verbatim"
     },
     {
       "id": "con-005",
@@ -209,7 +245,11 @@
       "title": "Distributed Data Parallel (notes)",
       "category": "concept",
       "source_url": "https://docs.pytorch.org/docs/stable/notes/ddp.html",
-      "description": "Internal design and correctness notes for the DDP module."
+      "description": "Internal design and correctness notes for the DDP module.",
+      "local_path": "raw/concepts/con-007_ddp_notes.md",
+      "retrieval_date": "2026-09-19",
+      "doc_version": "2.14 / main",
+      "capture_confidence": "high - full single-page fetch via docs/main mirror, verbatim"
     },
     {
       "id": "con-008",
